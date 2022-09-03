@@ -11,7 +11,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 100%, 74%) 
+- Red: hsl(0, 100%, 74%) FF6666
 - Green: hsl(154, 59%, 51%)
 
 ### Accent

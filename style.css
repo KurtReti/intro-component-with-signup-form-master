@@ -1,0 +1,111 @@
+html{
+    box-sizing:border-box;
+}
+
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+h5, h1, p, img{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    min-height: 50vh; 
+    flex-direction: column; 
+     background-color: #FF6666;
+    background-image: url("images/bg-intro-mobile.png"); 
+    background-size:contain;
+
+}
+
+#intro{
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#intro-text{
+    color: white;
+    text-align: center;
+}
+
+
+.form{
+    color: #9999CC;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #9999CC;
+    width: 85%;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#first-name{
+    margin-top: 30px;
+}
+
+#signup-container{
+    background-color: white;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0px 6px 2px 1px rgba(0,0,0,0.25);
+
+}
+
+#pricing-card{
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #333399;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    font-weight: 400;
+    box-shadow: 0px 6px 2px 1px rgba(0,0,0,0.25);
+}
+
+#claim-button button{
+    margin-top: 6px;
+    background-color: #33CC99;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 85%;
+    align-items: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#claim-button{
+    text-align: center;
+}
+
+#ts{
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    color: #9999CC;
+    font-size: 12px;
+    text-align: center;
+}
+
+#terms-and-services{
+    color: #FF6666;
+    font-weight: 600;
+}
+div{
+    width: 350px;
+}

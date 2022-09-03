@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
@@ -15,28 +17,51 @@
   </style>
 </head>
 <body>
+  <div id="screen">
+    <div id="intro">
+      <h2>Learn to code by watching others</h2>
+    </div>
+    <div id="intro-text">
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. </p>
+    </div>
+    <div id="pricing-card">
+      <strong>Try it free 7 days</strong> then $20/mo. thereafter
+    </div>
+    <div id="signup-container">
+      <div class="form" id="first-name">
+       First Name
+      </div>
+      <div class="form">
+        Last Name 
+      </div>
+      <div class="form">
+        Email Address
+      </div>
+      <div class="form">
+        Password
+      </div>
+      <div id="claim-button">
+        <button>Claim your free trial </button>
+      </div>
+      <div id="ts">
+        By clicking the button, you are agreeing to our <span id="terms-and-services">Terms and Services</span>
+      </div>
 
-  Learn to code by watching others
+    </div>
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+  </div>
+  
 
-  Try it free 7 days then $20/mo. thereafter
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
 
-  Claim your free trial 
 
-  By clicking the button, you are agreeing to our Terms and Services
   
   <footer>
-    <p class="attribution">
+    <!-- <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
-    </p>
+    </p> -->
   </footer>
 </body>
 </html>
