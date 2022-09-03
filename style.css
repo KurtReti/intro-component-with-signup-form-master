@@ -10,14 +10,16 @@ h5, h1, p, img{
     margin: 0;
 }
 
+
+
 body{
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center; 
-    min-height: 50vh; 
+    min-height: 100vh; 
     flex-direction: column; 
-     background-color: #FF6666;
+    background-color: #FF6666;
     background-image: url("images/bg-intro-mobile.png"); 
     background-size:contain;
 
@@ -92,6 +94,7 @@ body{
     text-align: center;
 }
 
+
 #ts{
     margin-top: 10px;
     padding-left: 40px;
@@ -108,4 +111,42 @@ body{
 }
 div{
     width: 350px;
+}
+
+@media (min-width: 400px){
+    body{
+        background-image: url("images/bg-intro-desktop.png"); 
+    }
+
+
+    #intro-container{
+        display: inline-block;
+        vertical-align:middle;
+        margin-left: 60px;
+
+    }
+
+    #pricing-card{
+        padding: 5px;
+        height: 60px;
+        padding-top: 17px;
+        margin-bottom: 15px;
+    }
+    
+    #right-side{
+        height: 50%;
+        display: inline-block;
+        vertical-align:middle;
+        margin-left: 50px;
+
+    }
+
+    div{
+        width: 450px;
+    }
+    
+    #screen{
+        width: 80%;
+    }
+
 }
