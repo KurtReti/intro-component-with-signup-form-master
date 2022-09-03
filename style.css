@@ -10,7 +10,9 @@ h5, h1, p, img{
     margin: 0;
 }
 
-
+div{
+    margin: 0 auto;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -50,6 +52,7 @@ body{
     font-weight: 600;
     margin: auto;
     margin-bottom: 15px;
+    margin-left: 33px;
 }
 
 #first-name{
