@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <title>Frontend Mentor | Intro component with sign up form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,6 +19,8 @@
 </head>
 <body>
   <div id="screen">
+    <main>
+
     <div id="intro-container">
       <div id="intro">
         <h2>Learn to code by watching others</h2>
@@ -33,21 +36,25 @@
       <div id="signup-container">
         <form>
         <input type="text" value="First name" class="form" id="first-name"><br>
-        <input type="text" value="Surname" class="form"><br>
-        <input type="text" value="Email Address" class="form"><br>
-        <input type="text" value="Password" class="form"><br>
+        <p class="enter-field"id="enter-name">First name cannot be empty</p>
+        <input type="text" value="Surname" class="form" id="surname"><br>
+        <p class="enter-field"id="enter-surname">Last Name cannot be empty</p>
+        <input type="text" value="Email Address" class="form" id="email"><br>
+        <p class="enter-field"id="enter-email">Looks like this is not an email</p>
+        <input type="text" value="Password" class="form" id="password"><br>
+        <p class="enter-field"id="enter-password">Password cannot be empty</p>
       </form> 
         <div id="claim-button">
-          <button>Claim your free trial </button>
+          <button onClick="validateForms()">Claim your free trial </button>
         </div>
         <div id="ts">
           By clicking the button, you are agreeing to our <span id="terms-and-services">Terms and Services</span>
         </div>
       </div>
     </div>
+  </main>
 
   </div>
-  
 
 
 

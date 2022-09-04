@@ -44,6 +44,7 @@ body{
 .form{
     color: #9999CC;
     padding: 15px;
+    padding-right: 20px;
     margin-top: 10px;
     border: 1px solid #9999CC;
     width: 85%;
@@ -52,7 +53,8 @@ body{
     font-weight: 600;
     margin: auto;
     margin-bottom: 15px;
-    margin-left: 33px;
+    margin-left: 35px;
+    background-origin:padding-box;
 }
 
 #first-name{
@@ -151,5 +153,18 @@ div{
     #screen{
         width: 80%;
     }
+
+    .enter-field{
+        margin-bottom: 10px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-right: 32px;
+        font-size: 10px;
+        color: red;
+        text-align: right;
+        display: none;
+    }
+
+
 
 }
